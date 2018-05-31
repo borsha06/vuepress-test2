@@ -16,6 +16,8 @@ To try it out locally, clone this repo and generate a static site
 git clone https://github.com/iwilfried/vuepress-start
 cd vuepress-start
 npm install
+vuepress dev
+
 npm run build
 ```
 
