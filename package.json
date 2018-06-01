@@ -1,17 +1,18 @@
 {
-    "name": "vuepress-base",
-    "version": "1.0.0",
-    "description": "Starter template for a VuePress site",
-    "author": "Wilfried Ifland <wilfried.ifland@gmail.com>",
-    "license": "MIT",
-    "scripts": {
-      "build": "vuepress build",
-      "test": "rm -rf .vuepress/dist && npm run build && stat .vuepress/dist/index.html"
-    },
-    "devDependencies": {
-      "vuepress": "^0.10.0"
-    },
-    "dependencies": {
-      "npm": "^5.8.0"
-    }
+  "name": "vuepress-base",
+  "version": "1.0.0",
+  "description": "Starter template for a VuePress site",
+  "author": "Wilfried Ifland <wilfried.ifland@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "vuepress build",
+    "test": "rm -rf .vuepress/dist && npm run build && stat .vuepress/dist/index.html"
+  },
+  "devDependencies": {
+    "vuepress": "^0.10.0"
+  },
+  "dependencies": {
+    "npm": "^5.8.0",
+    "sweetalert2": "^7.21.1"
   }
+}

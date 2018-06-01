@@ -8,6 +8,8 @@
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/iwilfried/vuepress-start)
 
+<modal></modal>
+
 ## Local Development
 
 To try it out locally, clone this repo and generate a static site
