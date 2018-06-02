@@ -1,6 +1,6 @@
 <template>
     <div class="modal">
-        <div class="modal" @click="modal">
+        <div class="modal" @click="modal()">
             <strong>Click Here!!!</strong>
         </div>
 
@@ -31,5 +31,6 @@
     .modal{
         color:#50b07c;
         font-size: 30px;
+        cursor: move;
     }
 </style>
