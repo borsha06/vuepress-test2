@@ -15,7 +15,7 @@
 To try it out locally, clone this repo and generate a static site
 
 ```bash
-git clone https://github.com/iwilfried/vuepress-start
+git clone https://github.com/borsha06/vuepress-test
 cd vuepress-start
 npm install
 vuepress dev

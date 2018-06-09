@@ -1,28 +1,35 @@
 <template>
     <div class="modal">
-        <div class="modal" @click="modal()">
-            <strong>Click Here!!!</strong>
-        </div>
+        <p @click="modal1 = true">Click Here</p>
+        <Modal
+                v-model="modal1"
+                title="A Modal"
+                @on-ok="ok"
+                @on-cancel="cancel">
+            <h1> Hello VuePress</h1>
 
+        </Modal>
     </div>
-
-
 </template>
 <script>
-    import Swal from 'sweetalert2'
-    export default{
-
-        data(){
+    import Vue from 'vue';
+    import iView from 'iview';
+    import 'iview/dist/styles/iview.css';
+    import locale from 'iview/dist/locale/en-US';
+    Vue.use(iView, {locale: locale});
+    export default {
+        data () {
             return {
-
-                message:"Hello Vuepress"
+                modal1: false
             }
         },
         methods: {
-
-
-            modal: function () {
-                Swal(this.message)            }
+            ok () {
+                this.$Message.info('Clicked ok');
+            },
+            cancel () {
+                this.$Message.info('Clicked cancel');
+            }
         }
     }
 
