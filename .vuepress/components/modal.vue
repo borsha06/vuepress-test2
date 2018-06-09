@@ -1,6 +1,6 @@
 <template>
     <div class="modal">
-        <p @click="modal1 = true">Click Here</p>
+        <i-p @click="modal1 = true">Click Here</i-p>
         <Modal
                 v-model="modal1"
                 title="A Modal"
